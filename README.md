@@ -73,7 +73,15 @@ Filebeat следует сконфигурировать для отправки
 В манифесте директории help также приведенно dummy приложение, которое генерирует рандомные события в stdout контейнера.
 Данные логи должны порождать индекс logstash-* в elasticsearch. Если данного индекса нет - воспользуйтесь советами 
 и источниками из раздела "Дополнительные ссылки" данного ДЗ.
- 
+
+
+### Ответ
+- Management/Stack management/Kibana/Index patterns/ Create index pattern
+![Create Index](create_index.png)
+
+- Analytics/Discover
+![Create Index](discover.png)
+
 ---
 
 ### Как оформить ДЗ?
